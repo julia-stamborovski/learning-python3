@@ -12,3 +12,20 @@ if (number_input == number):
     print("victory!")
 else:
     print("defeat!")
+
+# Execise 
+number1 = 1
+number2 = 4 
+if (number1 == number2):
+    print("equality!")
+else:
+    print("not equality!")
+
+age1 = 10 
+age2 = "20"
+
+print(age1 + age2) #TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+name = "Nico"
+last_name = "Steppat"
+print(name+last_name) #NicoSteppat
