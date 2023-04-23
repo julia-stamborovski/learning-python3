@@ -6,7 +6,7 @@ total_try = 3
 
 
 while guessing_round <= total_try:
-    print("round:", guessing_round, "of ", total_try)
+    print(f"round: {guessing_round} of {total_try}")
     
     number_input = input("type a number: ")
     print("you type the number:", number_input)
